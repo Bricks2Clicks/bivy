@@ -4,9 +4,45 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "faq-item-0": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer to the question<\/p>"
+          }
+        },
+        "faq-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer to the question<\/p>"
+          }
+        },
+        "faq-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Answer to the question<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-item-0",
+        "faq-item-1",
+        "faq-item-2"
+      ],
+      "settings": {
+        "title": "FAQ",
+        "subheading": "Questions and Answers"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "faq"
   ]
 }
