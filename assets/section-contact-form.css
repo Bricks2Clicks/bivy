@@ -111,3 +111,7 @@
 .comment-form label,
 .contact-form label{font-family:var(---body-font-family);font-weight:var(---body-font-weight);font-style:var(---body-font-style);font-size:calc(0.875rem*var(---font-adjust-body))}
 .contact-form__wrapper{max-width:500px;margin:auto}
+.contact-form label{color:inherit}
+.comment-form label p,
+.contact-form label p{color:inherit;font-family:inherit;font-size:inherit;line-height:inherit;margin:0 0 10px}
+.qty__adjust{display:block;position:relative;width:101px;color:var(---color-button-primary-bg)}
