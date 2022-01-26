@@ -1,0 +1,40 @@
+.faq-list__item-question svg,.no-js 
+.featured-product 
+.media--hidden,.no-js 
+.gallery-slider 
+.lazyload,.no-js 
+.inputCounter__btn,.no-js 
+.pagination--infinity 
+.icon-load-more,.no-js 
+.pagination--infinity 
+.loadMore,.no-js 
+.product-block 
+.lazyload,.no-js 
+.product-block__image-inner,.no-js 
+.product__form 
+.selector-wrapper,.no-js 
+.product__images__slider-nav,.no-js 
+.product__images__slider-nav:not(.flickity-enabled),.no-js 
+.qty__adjust-btn,.no-js 
+.slider-arrow,.no-js 
+.tab-title 
+.button-toggle,.no-js 
+.variant-wrapper{display:none}.no-js 
+.tab-content{height:auto;opacity:1;transition:none}.no-js 
+.tab-content+.tab-content{margin-top:20px;padding-top:20px;border-top:1px solid var(--border)}.no-js 
+select{-moz-appearance:auto;appearance:auto;-webkit-appearance:auto}.no-js 
+.acceptance__input:checked~.cart__buttons 
+.cart__checkout,.no-js 
+.cart__update,.no-js 
+.product-single__variants{display:block}.no-js 
+.acceptance__input:checked~.cart__buttons 
+.cart__checkout--no-js{display:none}.no-js 
+.is-page-loading,.no-js 
+.is-page-loading [data-aos]{opacity:1}.no-js 
+.faq-list__item-answer-wrapper{max-height:none;visibility:visible;opacity:1}.no-js 
+.popout:hover .popout-list{display:block;margin:0}.no-js 
+.collection__filters{position:relative;top:0}.no-js 
+.collection__filter:hover 
+.collection__filter-container{max-height:none;opacity:1}.no-js 
+.collection__filter:focus-within 
+.collection__filter-container,.no-js
