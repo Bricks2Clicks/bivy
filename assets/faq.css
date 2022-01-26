@@ -38,3 +38,19 @@ select{-moz-appearance:auto;appearance:auto;-webkit-appearance:auto}.no-js
 .collection__filter-container{max-height:none;opacity:1}.no-js 
 .collection__filter:focus-within 
 .collection__filter-container,.no-js
+.faq-section{margin-top:50px;margin-bottom:50px}
+.faq-section 
+.page-title__subheading{margin-bottom:0}
+.faq-list{list-style:none;max-width:1000px;margin:0 auto}
+.faq-list__item{border-bottom:1px solid var(---color-border)}
+.faq-list__item-question{font-size:calc(1.375rem*var(---font-adjust-heading));line-height:1.3;display:block;position:relative;padding:20px 40px 20px 0;cursor:pointer}
+.faq-list__item-question 
+.icon{top:50%;right:0;position:absolute;display:flex;align-items:center;justify-content:center;width:40px;height:40px;padding:10px;margin-top:-20px;transition:opacity .3s linear,transform .3s linear}
+.faq-list__item-question 
+.icon-minus{opacity:0;transform:rotate(90deg)}
+.faq-list__item-question 
+.icon-plus{opacity:1}.is-expanded>.faq-list__item-question 
+.icon-minus{opacity:1;transform:rotate(0deg)}.is-expanded>.faq-list__item-question 
+.icon-plus{opacity:0;transform:rotate(90deg)}
+.faq-list__item-answer-wrapper{overflow:hidden;max-height:0;opacity:0;visibility:hidden;transition:max-height .3s ease-in-out,visibility .3s ease-in-out,opacity .3s ease-in-out}.is-expanded>
+.faq-list__item-answer-wrapper{opacity:1;visibility:visible}.faq-list__item-answer{padding:0 0 30px}
