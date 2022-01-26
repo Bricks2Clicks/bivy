@@ -46,3 +46,68 @@
 .grecaptcha-badge {
   visibility: hidden;
 }
+
+
+.contact-form__container{margin-bottom:50px}
+.contact-form__container 
+.comment-form,
+.contact-form__container 
+.contact-form{margin:50px 0}
+.contact-form__success{margin:0 0 30px}
+.contact-text{text-align:center}
+.contact-text h2{font-size:calc(2.625rem*var(---font-adjust-heading));line-height:1.2}@media screen and (max-width:767px){.contact-text h2{font-size:calc(1.875rem*var(---font-adjust-heading))}}
+.comment-form,
+.contact-form{margin-top:30px}
+.footer__block .comment-form,
+.footer__block 
+.contact-form{margin-top:18px}@media screen and (max-width:767px){.footer__block .comment-form,.footer__block 
+.contact-form{margin:15px auto 0}}
+.comment-form 
+.form-field,
+.comment-form 
+.form-item,
+.contact-form 
+.form-field,
+.contact-form 
+.form-item{margin-bottom:20px}
+.comment-form input,
+.comment-form select,
+.comment-form textarea,
+.contact-form input,
+.contact-form select,
+.contact-form textarea{line-height:normal}
+.comment-form input[type=email],
+.comment-form input[type=tel],
+.comment-form input[type=text],
+.comment-form select,
+.comment-form textarea,
+.contact-form input[type=email],
+.contact-form input[type=tel],
+.contact-form input[type=text],
+.contact-form select,
+.contact-form textarea{display:block;width:100%;border:1px solid var(---color-border)}
+.comment-form input[type=submit],
+.contact-form input[type=submit]{padding-left:45px;padding-right:45px}@media screen and (max-width:549px){.comment-form input[type=submit],
+.contact-form input[type=submit]{display:block;margin:0 auto}}@media screen and (max-width:399px){.comment-form input[type=submit],
+.contact-form input[type=submit]{width:100%}}
+.comment-form input[type=checkbox],
+.comment-form input[type=radio],
+.contact-form input[type=checkbox],
+.contact-form input[type=radio]{display:inline-block;vertical-align:middle;margin:0 4px 2px 0}
+.comment-form input[type=radio],
+.contact-form input[type=radio]{-webkit-appearance:radio;-moz-appearance:radio;-o-appearance:radio;appearance:radio}
+.comment-form input[type=checkbox],
+.contact-form input[type=checkbox]{-webkit-appearance:checkbox;-moz-appearance:checkbox;-o-appearance:checkbox;appearance:checkbox}
+.comment-form fieldset,
+.contact-form fieldset{padding:0;margin:0;border:0}
+.comment-form ::-webkit-input-placeholder,
+.contact-form ::-webkit-input-placeholder{color:var(---color-input-placeholder)}
+.comment-form :-moz-placeholder,
+.comment-form ::-moz-placeholder,
+.contact-form :-moz-placeholder,
+.contact-form ::-moz-placeholder{color:var(---color-input-placeholder)}
+.comment-form :-ms-input-placeholder,
+.contact-form :-ms-input-placeholder{color:var(---color-input-placeholder)}
+.comment-form label,
+.contact-form label{font-family:var(---body-font-family);font-weight:var(---body-font-weight);font-style:var(---body-font-style);font-size:calc(0.875rem*var(---font-adjust-body))}
+.contact-form__wrapper{max-width:500px;margin:auto}
