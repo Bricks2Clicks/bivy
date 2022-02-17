@@ -189,11 +189,7 @@
       }
     {% endstyle %}
     
-    {% if template contains 'index' %}
-          {{ 'main.css' | asset_url | stylesheet_tag }}
-    {% else %}
-          {{ 'base.css' | asset_url | stylesheet_tag }}
-    {% endif %}
+{{ 'base.css' | asset_url | stylesheet_tag }}
 
     
 
